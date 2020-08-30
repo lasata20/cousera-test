@@ -8,16 +8,6 @@ h1{
   padding: 0px;
 }
 
-#box{
-	overflow: none;
-  padding: 5px;
-  border: 5px solid black;
-  width: 350px;
-  height: 200px;
-  margin: 10px;
-  float: both;
-}
-
 .item{
 	
 	margin: 10px;
@@ -60,12 +50,17 @@ h1{
 	float:right;
 	padding:5px;
 }
+	@media (min-width: 992px){
+		.main #Chicken{width: 30%;}
+		.main #Beef{width:30%;}
+		.main #Mutton{width:30%;}
+	}
  
 /*tablet view*/
 	@media (min-width: 768px) and (max-width: 991px){
-		.main #Chicken{width: 40%}
-	.main #Beef{width: 40%}
-	.main #Mutton{width: 80%;clear: left;}
+		.main #Chicken{width: 45%}
+	.main #Beef{width: 45%}
+	.main #Mutton{width: 90%}
 
 	}
 /*Mobile View*/
