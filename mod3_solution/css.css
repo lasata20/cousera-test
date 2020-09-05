@@ -1,0 +1,88 @@
+/** HEADER **/
+#header-nav {
+  background-color: Gray;
+  margin: 0px;
+  border: 5px;
+}
+
+
+.navbar-header{
+	position: relative;
+	width: 700px;
+	height: 80px
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: Black;
+  font-size: 5vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  line-height: .50;
+  text-align: left;
+}
+
+
+.container{
+	position: relative;
+	width: 725px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.text-center{
+	color:Black;
+	font-size: 5vw;
+	margin:2px;
+	padding: 2px;
+}
+
+.main .item{
+	color:Black;
+	background-color: Gray;
+	margin:10px;
+	padding:15px;
+}
+
+ .section1
+{	
+	color:Black;
+	font-size: 3.5vw;
+	text-align: center;
+	padding:2px;
+}
+.section2
+{
+	color: Black;
+	font-size: 3.5vw;
+	text-align: center;
+	padding:2px;
+}
+.section3
+{
+	color: Black;
+	font-size: 3.5vw;
+	text-align: center;
+	padding: 2px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: Black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
