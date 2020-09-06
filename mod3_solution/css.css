@@ -5,12 +5,6 @@
   border: 5px;
 }
 
-
-.navbar-header{
-	position: relative;
-	width: 700px;
-	height: 80px
-}
 .navbar-brand h1 { /* Restaurant name */
   color: Black;
   font-size: 5vw;
@@ -24,17 +18,17 @@
 }
 
 
-.container{
-	position: relative;
-	width: 725px;
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
+.navbar-header{
+	width:700px;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+}
+
+.navbar-header button .navbar-toggle {
+  clear: both;
+
 }
 
 .text-center{
@@ -77,12 +71,9 @@
   margin-top: 10px;
 }
 #nav-list a {
-  color: Black;
+  color: white;
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
-  font-size: 1.8em;
+  background: gray;
 }

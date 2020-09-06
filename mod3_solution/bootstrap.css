@@ -4369,11 +4369,11 @@ input[type="button"].btn-block {
 .navbar-text {
   display: inline-block;
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.5remvi;
 }
 
 .navbar-toggle{
-  position:relative;
+  position:relative; 
   float: right;
   padding: 9px 10px;
   margin-top: 8px;
@@ -4400,6 +4400,7 @@ input[type="button"].btn-block {
 @media(min-width: 768px)
 {
   .navbar-toggle{
+    position: relative;
     display:none;
   }
 }
