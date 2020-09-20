@@ -1,7 +1,7 @@
 
 ( function () {
 
-var names = ["Harry", "John", "Joe", "Leo", "Paul", "Jimmy", "Laura", "Anny", "Jacob", "Marie"];
+var names = ["Yaakov", "John", "Joe", "Leo", "Paul", "Jimmy", "Laura", "Anny", "Jacob", "Marie"];
 
 ( function(window){
 var helloSpeaker= {};
